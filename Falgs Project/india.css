@@ -1,0 +1,53 @@
+.top{
+    width:1350px;
+    height:300px;
+    background-color:rgb(255, 153, 51);
+    position:relative;
+}
+.middle{
+    position:relative;          
+}
+
+.circle{
+    width: 240px;
+    height:240px;
+    border-radius: 50%;
+    position: relative;
+    left: 555px;
+    top:17px;
+    border:13px solid rgb(0, 0, 136);
+    animation: roundround 3s infinite linear;
+}
+@keyframes roundround {
+    from{transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+div > li{
+    position:absolute;
+    left:567px;
+    border: 1px solid rgb(0, 0, 136);
+    width: 240px;
+    list-style: none;
+    top:148px;
+    
+}
+li:nth-child(2){top:148px; transform: rotate(90deg);}
+li:nth-child(3){top:148px;transform: rotate(15deg);}
+li:nth-child(4){top:148px; transform: rotate(30deg);}
+li:nth-child(5){top:148px; transform: rotate(45deg);}
+li:nth-child(6){top:148px;transform: rotate(60deg);}
+li:nth-child(7){top:148px; transform: rotate(75deg);}
+li:nth-child(8){top:148px;transform: rotate(105deg);}
+li:nth-child(9){top:148px;transform: rotate(120deg);}
+li:nth-child(10){top:148px;transform: rotate(135deg);}
+li:nth-child(11){top:148px;transform: rotate(150deg);}
+li:nth-child(12){top:148px;transform: rotate(165deg);}
+
+.bottom{
+    background-color: rgb(18, 136, 7);
+    position: absolute;
+    height:300px;
+    width:1350px;
+    top:600px;
+}

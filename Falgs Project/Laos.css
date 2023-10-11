@@ -1,0 +1,37 @@
+*{
+    text-align:center;
+}
+
+.flagg{
+    width:900px;
+    height: 600px;
+    background-color: red;
+}
+h1{
+    font-size:3rem;
+}
+.flag{
+    background-color: red;
+    color:white;
+    height:150px;
+    position: relative;
+}
+.laos{
+    background-color: darkmagenta;
+    height:300px;
+    position: absolute;
+    width:900px;
+}
+#circle{
+    width: 200px;
+    height:200px;
+    background-color: white;
+    border-radius:50%;
+    position: relative;
+    top:50px;
+    left:360px;
+}
+p{
+    margin:0;
+    font-size: 5rem;
+}
